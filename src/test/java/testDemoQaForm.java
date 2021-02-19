@@ -85,3 +85,17 @@ public class testDemoQaForm {
         $("#closeLargeModal").click();
     }
 }
+
+/*
+При поиске штата и города можно использовать конкретные названия. Например:
+
+String state = "Rajasthan",
+        city = "Jaipur";
+        
+        $("#state").click();
+        $("#state").find(byText(state)).click();
+        $("#city").click();
+        $("#city").find(byText(city)).click();
+      
+Таким образом в тесте напрямую будут использоваться значения, вынесенные в параметры, и он будет более лучше (с) читаемым и понятным
+*/
